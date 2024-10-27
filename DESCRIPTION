@@ -2,7 +2,7 @@ Package: tidycountries
 Type: Package
 Title: Access and Manipulate Comprehensive Country Level Data in Tidy
         Format
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: 
     person("Dennis", "Irorere", , "denironyx@gmail.com", role = c("aut", "cre", "cph"))
 Description: A comprehensive and user-friendly interface for accessing, manipulating, 
@@ -17,13 +17,13 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
 Depends: R (>= 3.5.0)
-Imports: dplyr, stringr
-Suggests: testthat (>= 3.0.0)
+Imports: dplyr, stringr, sf
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/Needs/website: rmarkdown
 NeedsCompilation: no
-Packaged: 2024-09-10 07:00:16 UTC; Dee
+Packaged: 2024-10-27 02:28:05 UTC; Dee
 Author: Dennis Irorere [aut, cre, cph]
 Maintainer: Dennis Irorere <denironyx@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-09-12 17:30:02 UTC
+Date/Publication: 2024-10-27 04:20:02 UTC
